@@ -1,0 +1,8 @@
+[package]
+name = "truco_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+truco_domain_engine = { git = "https://github.com/Mirkopoj/truco_state_pattern.git" }
+tokio = { version = "1.34.0", features = ["full"] }
